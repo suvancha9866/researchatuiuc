@@ -41,13 +41,13 @@ Please pip install all of the python libraries to ensure the app works properly.
 ===
 
 ### Summary of this semester placement expectations: 
-We were tasked with creating research themes for a combination of two departments based on professors research biographies. We had to find a way to come up with encompassing themes for both departments. We would then have to use the resulting themes to classify new professors based on their biographies. We needed to figure out a way to automate this process using AI/ML and reduce the human classification aspect. 
+We were tasked with creating research themes for a combination of two departments based on professors' research biographies. We had to find a way to come up with encompassing themes for both departments. We would then have to use the resulting themes to classify new professors based on their biographies. We needed to figure out a way to automate this process using AI/ML and reduce the human classification aspect.
 
 ### Project Status Report:
-1. Research Phase: We needed to figure out ways we wanted to implement this with Artificial Intelligence. What would be the most practical way and how should we go about doing it.
+1. Research Phase: We needed to figure out ways we wanted to implement this with Artificial Intelligence. What would be the most practical way, and how should we go about doing it?
 2. AI Testing: We tested various prompts to see which ones worked the best in outputting the best themes based on the given descriptions.
-3. Validation: We needed to make sure that what the LLMs were outputting were accurate. William manually checked and saw good results with the Local LLM.
-4. MVP Creation: We finally made a UI for this and split the project into two: Training and Testing. The Generation would handle taking in all of the research bios and ouput 15 themes. The Classification would take in new descriptions and then classify the description based on the 15 themes and output 4 themes it thiks the description fits best.
+3. Validation: We needed to make sure that what the LLMs were outputting was accurate. William manually checked and saw good results with the Local LLM.
+4. MVP Creation: We finally made a UI for this and split the project into two: Training and Testing. The Generation would handle taking in all of the research bios and output 15 themes. The Classification would take in new descriptions and then classify them based on the 15 themes, outputting four themes that it thinks the description fits best.
 
 ### Future
 These are the things we think would be next steps:
