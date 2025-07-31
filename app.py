@@ -12,7 +12,7 @@ def llm(descriptions, dep1, dep2):
         url = os.getenv("URL")
         myobj = {
             "model": "gemma3:12b",
-            "prompt": f"""Given the following descriptions, generate 15 not too broad, but also not too specific, themes that the professors embodied. The hope is that these themes can be extrapolated to classify other {dep1}/{dep2} professors, so make them very encompassing themes. Only output the 15 themes and nothing else and add a new line character after each theme.
+            "prompt": f"""Given the following professors research descriptions, generate 15 not too broad, but also not too specific, themes that the professors embodied. The hope is that these themes can be extrapolated to classify other {dep1}/{dep2} professors, so make them very encompassing themes. Only output the 15 themes and nothing else and add a new line character after each theme.
             {descriptions}
             """,
             "stream": False
